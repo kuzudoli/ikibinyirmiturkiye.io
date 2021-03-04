@@ -1,0 +1,178 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+#home {
+    height: 800px;
+}
+
+#mainContent {
+    width: 100%;
+    height: 1000px;
+}
+
+/*SOZ*/
+.soz {
+    margin-top: 10%;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.soz #yazar {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/*SOZ BITIS*/
+
+/*SCROLL ANIMATION*/
+.scroll-down {
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouse {
+    width: 2.5rem;
+    height: 5rem;
+    border: 2px solid #e35050;
+    border-radius: 2rem;
+    display: flex;
+}
+
+.mouse span {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #e35050;
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+    animation: move-wheel 1s linear infinite;
+}
+
+.arrow span {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid transparent;
+    border-right-color: #e35050;
+    border-bottom-color: #e35050;
+    transform: rotate(45deg);
+    animation: arrow-anime 1s alternate infinite;
+}
+
+@keyframes move-wheel {
+    0% {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+}
+
+@keyframes arrow-anime {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: .25;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    75% {
+        opacity: .75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*SCROLL ANIMATION END*/
+
+/*ROAD/LINE/DATES*/
+
+#line {
+    top: 20px;
+    width: 4px;
+    height: 100%;
+    background: #e35050;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+
+}
+
+.group label {
+    position: relative;
+    margin-top: 70px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.group label input[type="radio"] {
+    display: none;
+}
+
+.group label span {
+    color: white;
+    background: #e35050;
+    text-align: center;
+    padding: 0 2px;
+    font-size: 20px;
+    border-radius: 50%;
+    user-select: none;
+    transition: .3s all;
+}
+
+.group label input[type="radio"]:checked ~ span {
+    background: #333;
+    padding: 3px 7px;
+    font-size: 30px;
+}
+
+/*ROAD/LINE/DATES END*/
+#content {
+    margin-top: 225px;
+    display: none;
+    opacity: 0;
+    transition: all 1s;
+    position: absolute;
+}
+
+#contentIn {
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    text-align: center;
+}
+
+#contentIn p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+/*FOOTER*/
+footer h6{
+    font-weight: 200;
+}
+footer a:hover{
+    text-decoration: none;
+}

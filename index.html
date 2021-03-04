@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8d8f98236.js" crossorigin="anonymous"></script>
+    <title> 2020 | TÜRKİYE </title>
+</head>
+
+<body>
+    <!--HOME-->
+    <div class="container-fluid" id="home">
+        <section id="sect1">
+            <center>
+                <div class="logo">
+                    <img src="assets/logo.png" class="mt-4" width="500px;">
+                </div>
+
+                <div class="soz">
+                    <p>"<span style="font-weight: 500">Düzenim bozulur, hayatımın altı üstüne gelir</span> diye endişe etme.<br>
+                        Nereden biliyorsun hayatın altının üstünden daha iyi olmayacağını?"
+                    </p>
+                    <p id="yazar">Şems-i Tebrizi</p>
+                </div>
+
+                <div class="hero">
+                    <a href="#sect2" class="scroll-down">
+                        <div class="mouse">
+                            <span></span>
+                        </div>
+                        <div class="arrow">
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </center>
+        </section>
+    </div>
+    
+    <!--CONTENT-->
+    <div class="container-fluid px-5" id="mainContent" style="position: absolute;">
+        <div class="row" style="padding-bottom: 200px;">
+            <div class="col-md-3">
+                
+                <!--O C A K-->
+                <div class="row ust">
+                    <div class="col" style="text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">OCAK</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(0);">
+                                        <span>06</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(1);">
+                                        <span>10</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(2)">
+                                        <span>11</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(3)">
+                                        <span>15</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(4)">
+                                        <span>24</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--Ş U B A T-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">ŞUBAT</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(5);">
+                                        <span>04</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(6);">
+                                        <span>05</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(7)">
+                                        <span>23</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(8)">
+                                        <span>27</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--M A R T-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">MART</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(9);">
+                                        <span>01</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(10);">
+                                        <span>11</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(11)">
+                                        <span>12</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(12)">
+                                        <span>17</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(13)">
+                                        <span>21</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(14)">
+                                        <span>25</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--N İ S A N-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">NİSAN</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(15);">
+                                        <span>03</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(16);">
+                                        <span>10</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(17)">
+                                        <span>17</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(18)">
+                                        <span>23</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--H A Z İ R A N-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">HAZİRAN</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(19);">
+                                        <span>01</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(20);">
+                                        <span>14</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(21)">
+                                        <span>15</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(22)">
+                                        <span>17</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--T E M M U Z-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">TEMMUZ</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(23);">
+                                        <span>03</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(24);">
+                                        <span>06</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(25)">
+                                        <span>07</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(26)">
+                                        <span>10</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--A Ğ U S T O S-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">AĞUSTOS</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(27);">
+                                        <span>21</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(28);">
+                                        <span>23</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(29)">
+                                        <span>25</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                                <!--<div id="line" style="height: 420px !important;"></div>-->
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--E Y L Ü L-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">EYLÜL</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(30);">
+                                        <span>17</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(31);">
+                                        <span>24</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(32)">
+                                        <span>27</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                
+                <!--E K İ M-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">EKİM</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(33);">
+                                        <span>11</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(34);">
+                                        <span>17</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(35)">
+                                        <span>30</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--K A S I M-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">KASIM</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(36);">
+                                        <span>09</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(37);">
+                                        <span>15</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(38)">
+                                        <span>18</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                
+                <!--A R A L I K-->
+                <div class="row ust">
+                    <div class="col" style="margin-top: 40px; text-align: center;font-size: 35px;color:#e35050;font-family: 'Roboto', sans-serif;">ARALIK</div>
+                </div>
+                <div class="row alt">
+                    <div class="col">
+                        <center>
+                            <div class="road">
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(39);">
+                                        <span>10</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(40);">
+                                        <span>14</span>
+                                    </label>
+                                </div>
+                                <div class="group">
+                                    <label>
+                                        <input type="radio" name="gender" class="box1" id="checkOne" onclick="show(41)">
+                                        <span>30</span>
+                                    </label>
+                                </div>
+                                <div id="line"></div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-8">
+                <!--O C A K-->
+                <section id="sect2">
+                    <div id="content" class="cont0">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">6 OCAK 2020</h5>
+                        <div id="contentIn">
+                            <h3>Milli İstihbarat Teşkilatı Başkanlığının yeni binası Etimesgut, Ankara’da açıldı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Milli İstihbarat Teşkilatı Başkanlığı'nın Etimesgut ilçesindeki Bağlıca semtinde inşa edilen yeni binası <b>"KALE"</b> hizmete girdi.<b>5 bin</b> dönümlük bir alan üzerine inşa edilen ve etrafında başka herhangi bir yapı bulunmayan, <b>yaklaşık 3 metre</b> boyunda beton duvarlar ve dikenli tellerle çevrili, dinlemelere, yetkisiz girişlere ve sızmalara karşı özel olarak tasarlanmış yeni karargah binasının açılışını <b>Cumhurbaşkanı Erdoğan</b> yaptı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont1">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">10 OCAK 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19 ile mücadele için Koronavirüs Bilim Kurulu oluşturuldu.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Dünya Sağlık Örgütü (DSÖ)</b>, koronavirüsle ilgili acil durum ilan etmeden önce koronavirüs salgınına yönelik ilk adım <b>Sağlık Bakanlığı</b> tarafından Bilim Kurulu'nun oluşturulmasıyla atıldı.
+                                Bakanlık, virüsün ortaya çıkmasıyla Türkiye'nin önde gelen üniversitelerinden alanında <b>yetkin enfeksiyon</b>, <b>mikrobiyoloji</b>, <b>viroloji</b>, <b>iç hastalıkları</b>, <b>yoğun bakım</b> ve <b>göğüs hastalıkları</b> uzmanı akademisyenleri Koronavirüs Bilim Kuruluna davet etti. Böylece, <b>Sağlık Bakanı Fahrettin Koca</b>'nın başkanlığını yürüttüğü 31 bilim insanın yer aldığı kurul oluşturuldu.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont2">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">11 OCAK 2020</h5>
+                        <div id="contentIn">
+                            <h3>Silivri açıklarında 4.9 Richter büyüklüğünde deprem meydana geldi.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>AFAD</b>, Marmara Denizi’nde Silivri açıklarında meydana gelen <b>4.7</b> büyüklüğündeki deprem sonrası, olumsuz bir ihbarın bulunmadığını bildirdi. Ayrıca AFAD Silivri açıklarında meydana gelen 4.7 büyüklüğündeki depremin Tekirdağ’ın Şarköy ilçesi açıklarında meydana gelen depremlerle farklı fay segmentlerinde olduğunu bildirdi. Tekirdağ’ın Şarköy ilçesi açıklarında saat 06.28’de 1.6 büyüklüğünde bir deprem meydana gelmiş, bu depremin ardından saat 15.26’ya kadar Şarköy ile Marmara Ereğlisi ve Süleymanpaşa açıklarında, büyüklükleri 1.1 ile 3 arasında değişen <b>35</b> deprem daha kaydedilmişti.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont3">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">15 OCAK 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19 ile mücadele için Koronavirüs Bilim Kurulu oluşturuldu.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Vikipedi'nin çevrim içi tüm dillerinin Türkiye'den engellenmesi, <b>Bilgi Teknolojileri ve İletişim Kurumu (BTK)</b> tarafından, 5651 sayılı kanununun verdiği yetkiye dayanarak <b>29 Nisan 2017</b> tarihinde aldığı idari tedbir kararı sonucu meydana geldi. <b>"Türkiye'yi terör örgütleriyle aynı zeminde gösteren ifadelerin bulunması"</b> engele gerekçe olarak gösterilmişti. Türkiye Cumhuriyeti Anayasa Mahkemesi 26 Aralık 2019 tarihinde erişiminin engellenmesiyle ifade özgürlüğünün ihlal edildiğine hükmetti. Mahkeme sulh ceza hâkimliğinden Vikipedi'nin yasağının kaldırılmasını istedi. Karar 15 Ocak 2020 tarihinde Resmî Gazete'de yayımlandı. Ankara 1. Sulh Ceza Mahkemesi'nin erişim engelinin kaldırılması talimatı ile Vikipedi, Bilgi Teknolojileri Kurumu tarafından <b>15 Ocak 2020 tarihinde fiilen erişime açıldı</b>.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont4">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">24 OCAK 2020</h5>
+                        <div id="contentIn">
+                            <h3>Elazığ açıklarında 6.8 büyüklüğünde deprem meydana geldi<br>41 kişi hayatını kaybetti.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;2020 Elazığ depremi, <b>24 Ocak 2020</b> tarihinde yerel saatle <b>20.55'te</b> Türkiye'nin Elazığ ilinde meydana gelen, merkez üssü Sivrice ilçesine bağlı Çevrimtaş köyü olan ve <b>yaklaşık 40 saniye</b> kadar süren deprem. <b>Kandilli Rasathanesi depremin büyüklüğünü 6.8</b> olarak açıkladı. Depremin ardından ilk açıklamaları yapan <b>İçişleri Bakanı Süleyman Soylu</b>'nun açıklamalarına göre, <b>41 kişi öldü ve 1466 kişi hafif ve orta derecede yaralandı</b>.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Ş U B A T-->
+                <section id="sect3" style="margin-top: 600px;">
+                    <div id="content" class="cont5">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">6 OCAK 2020</h5>
+                        <div id="contentIn">
+                            <h3>Van'da gerçekleşen 2 çığ faciasında toplam 41 kişi hayatını kaybetmiştir.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Van-Bahçesaray</b> kara yolunun 33. kilometresinde düşen çığın altında kalan iş makinesi ve <b>minibüsteki 7 kişinin</b> kurtarıldığını, <b>5 kişinin</b> ise yaşamını yitirdiğini anımsattı. Çığ altında kalanları kurtarma çalışmaları sırasında ikinci bir çığ düştü ve ekipte yer alanlardan bazıları çığ altında kaldı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont6">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">5 ŞUBAT 2020</h5>
+                        <div id="contentIn">
+                            <h3> Pegasus Hava Yolları 2193 sefer sayılı uçuşunda iniş sırasında kaza yaşandı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>İzmir-İstanbul</b> seferini yapan ve <b>Adnan Menderes Havalimanı</b>'ndan kalkan uçak, <b>Sabiha Gökçen Havalimanı</b>'na indikten sonra pistten çıkmış, 177 yolcu ve 6 mürettebattan arasından <b>3 kişi hayatını kaybederken 179 kişi yaralanmıştır</b>.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont7">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">11 OCAK 2020</h5>
+                        <div id="contentIn">
+                            <h3>İran-Türkiye depremleri yaşandı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>İran'ın Batı Azerbaycan Eyaleti'nin Hoy ilinde</b> meydana gelen <b>5.8 Mw</b> ve <b>5.9 büyüklüğündeki</b> depremlerde <b>İran'da 75 kişi yaralandı</b>, <b>Van'da ise 10 kişi hayatını kaybetti</b>, <b>50 kişi yaralandı</b>.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont8">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">15 OCAK 2020</h5>
+                        <div id="contentIn">
+                            <h3>İdlib Saldırısı yaşandı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>İdlib'te Suriye Hükûmeti</b> tarafından askeri konvoyumuza saldırı sonucu <b>33 askerimiz şehit oldu</b>, <b>32 askerimiz ise yaralandı</b>.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--M A R T-->
+                <section id="sect4" style="margin-top: 1200px;">
+                    <div id="content" class="cont9">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">1 MART 2020</h5>
+                        <div id="contentIn">
+                            <h3>Türkiye, Bahar Kalkanı Harekâtı'nı başlattı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;27 Şubat tarihinde Suriye'nin İdlib kentinde Türk askerine yönelik düzenlenen hain saldırıda 34 askerimiz şehit düşmüştü. Yaşanan hain saldırının ardından başlatılan karşı harekatın ismi <b>Milli Savunma Bakanı Hulusi Akar</b> tarafından açıklandı. Yeni harekatın adı <b>Bahar Kalkanı</b> olarak duyuruldu.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont10">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">11 MART 2020</h5>
+                        <div id="contentIn">
+                            <h3>Sağlık Bakanlığı, Türkiye'de ilk kez Koronavirüs vakasına rastlanıldığını açıkladı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Sağlık Bakanlığı, <b>Bakan Fahrettin Koca</b>, gece yarısı yaptığı açıklamada Türkiye'deki ilk Koronavirüs vakasını doğruladı. Koca, <b>"Koronavirüs şüphesi olan 1 vatandaşımızın test sonucu pozitif çıktı"</b> dedi.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont11">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">12 MART 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19 tedbirleri kapsamında okullar kısa süreli tatil edildi</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>COVID-19</b> tedbirleri kapsamında <b>İlköğretim ve Ortaöğretim</b> 16 Mart'tan itibaren <b>1 hafta süreyle</b> tatil edildi. <b>Üniversiteler ise 3 hafta süreyle</b> tatil edildi.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont12">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">17 MART 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19'dan kaynaklı ilk ölüm gerçekleşti.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Sağlık Bakanı Fahrettin Koca</b> dün gece yarısında vaka sayısına ilişkin yeni bir açıklama yaptı. Açıklamada virüs kaynaklı <b>ilk ölümün gerçekleştiği</b> bilgisi vatandaşlar ile paylaşıldı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont13">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">21 MART 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19 tedbirleri kapsamında 65 yaş üstüne sokağa çıkma yasağı getirildi.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Genelgede <b>65 yaş ve üzeri ile bağışıklık sistemi düşük, ve kronik akciğer hastalığı, astım, KOAH, kalp/damar hastalığı, böbrek, hipertansiyon ve karaciğer hastalığı</b> olanlar ile <b>bağışıklık sistemini bozan ilaçları kullanan</b> vatandaşlar <b>21 Mart saat 24.00</b>’den sonra <b>ikametlerinden dışarı çıkmaları, açık alanlarda, parklarda dolaşmaları ve toplu ulaşım araçları ile seyahat etmeleri</b> sınırlandırılarak <b>sokağa çıkmalarını yasaklandı</b>.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont14">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">25 MART 2020</h5>
+                        <div id="contentIn">
+                            <h3> COVID-19 tedbirleri kapsamına tüm eğitim kurumlarında eğitime 30 Nisan'a kadar ara verildi.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Koronavirüs Bilim Kurulu Toplantısı</b> sonrasında <b>Millî Eğitim Bakanı Ziya Selçuk</b> ve <b>Sağlık Bakanı Fahrettin Koca</b> kameralar karşısına geçti. Bakan Selçuk, Bilim Kurulunun önerisiyle <b>uzaktan eğitimin 30 Nisan'a kadar</b> devam etmesi kararı aldıklarını açıkladı.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--N İ S A N-->
+                <section id="sect5" style="margin-top: 1800px;">
+                    <div id="content" class="cont15">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">3 NİSAN 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19 tedbirleri kapsamında 20 yaş altına sokağa çıkma yasağı getirildi.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Cumhurbaşkanı Erdoğan</b>'ın <b>"Ülkemizin tamamıyla daha önce 65 yaş üstüne uyguladığımız sokağa çıkma uygulamasını 20 yaş altına getirmektir. Gece yarısından itibaren 1 Ocak 2000 ve üstü tarihli doğumlularda tıpkı 65 yaş üstü gibi sokağa çıkamayacaktır."</b> açıklaması ile resmî olarak <b>20 yaş altına</b> sokağa çıkma yasağı getirilmiştir.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont16">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">10 NİSAN 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19 nedeniyle 31 ilde haftasonu sokağa çıkma yasağı ilan edildi.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>31 ilde</b> (30+Zonguldak) uygulanan sokağa çıkma yasağı gece 24.00'da başladı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont17">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">17 NİSAN 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19 nedeniyle 31 ilde haftasonu sokağa çıkma yasağı ilan edildi.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Daha önce alınan sokağa çıkma yasağı tedbirine aynı şekilde devam edildi.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont18">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">23 NİSAN 2020</h5>
+                        <div id="contentIn">
+                            <h3>Türkiye Büyük Millet Meclisi'nin açılışının 100. yıldönümü kutlandı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;23 Nisan Ulusal Egemenlik ve Çocuk Bayramı ile TBMM'nin açılışının <b>100.yıl</b> dönümü dolayısıyla Ulus'taki Birinci Meclisi'te tören düzenlendi.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--H A Z İ R A N-->
+                <section id="sect6" style="margin-top: 2400px;">
+                    <div id="content" class="cont19">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">1 HAZİRAN 2020</h5>
+                        <div id="contentIn">
+                            <h3>COVID-19 kapsamında getirilen yasaklar kademeli olarak kaldırıldı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Sağlık Bakanı Fahrettin Koca</b>, son Bilim Kurulu toplantısının ardından <b>"Bayramdan sonra daha özgürüz"</b> müjdesini vermişti. Hükümetin yaptığı çalışmalarda da bayram sonrası hazırlığı hız kazandı. Toplantılarda, bayram sonrasında vaka sayısının 500'e düşeceği öne sürüldü fakat hesaplamalar doğru tutmadı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont20">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">14 HAZİRAN 2020</h5>
+                        <div id="contentIn">
+                            <h3>Bingöl, Karlıova açıklarında 5.7 büyüklüğünde deprem meydana geldi ve 1 kişi şehit oldu.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>AFAD</b> depremin büyüklüğünü <b>5.7</b> olarak açıkladı. Öte yandan depremin çevre illerden de hissedildiği bildirildi. <b>Bingöl Valisi Kadir Ekinci</b>, depremde <b>bir karakolun gözetleme kulesinin yıkıldığını</b> açıkladı. <b>Kandilli Rasathanesi saat 18.09'da da Karlıova'da 4.7 büyüklüğünde</b> bir depremin daha meydana geldiğini bildirdi. Bingöl Valiliği <b>bir korucunun hayatını kaybettiğini</b> açıkladı. İçişleri Bakanlığı'ndan yapılan açıklamada '<b>Deprem nedeniyle Bingöl'de 17 vatandaşımız etkilenmiş, 1 güvenlik korucumuz şehit olmuştur. Erzurum'da 4 vatandaşımız etkilenmiştir. Tedavisi tamamlanan 3 vatandaşımız taburcu edilirken, 18 vatandaşımızın tedavilerine devam edilmektedir. Bölgeye AFAD, UMKE, 112 Acil, İtfaiye, Jandarma ekiplerinden oluşan toplam 94 araç ile 801 personel sevk edilmiştir'</b> denildi.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont21">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">15 HAZİRAN 2020</h5>
+                        <div id="contentIn">
+                            <h3>Kuzey Irak'ta Pençe-Kartal Operasyonu adıyla hava taaruzu başlattı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Milli Savunma Bakanlığı</b>'nın Irak kuzeyinde 15 Haziran gecesi başlattığı, terörist unsurları etkisiz hale getirmek için gerçekleştirilen Pençe-Kartal Operasyonu'nda barınak, sığınak ve mağaralardan oluşan hedefler de imha edildi.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont22">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">17 HAZİRAN 2020</h5>
+                        <div id="contentIn">
+                            <h3>Kuzey Irak'a Pençe-Kaplan Operasyonu'nu başlattı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Milli Savunma Bakanlığı (MSB)</b>, Irak'ın kuzeyindeki Haftanin bölgesine <b>"Pençe-Kaplan Operasyonu"</b> adıyla yeni bir harekat başlatıldığını, <b>Hava Kuvvetleri, ateş destek vasıtaları, ATAK helikopterleri, İHA ve SİHA</b>’larla desteklenen komandoların hava hücum harekatıyla bölgeye intikal ettiğini bildirdi.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--T E M M U Z-->
+                <section id="sect7" style="margin-top: 2900px;">
+                    <div id="content" class="cont23">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">3 TEMMUZ 2020</h5>
+                        <div id="contentIn">
+                            <h3>Sakarya, Hendek'de havai fişek fabrikasında patlama meydana geldi.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Sakarya'nın Hendek ilçesinde 15 dönüm alana kurulu bir <b>havai fişek fabrikasında</b> meydana gelen patlamada <b>7 kişi hayatını kaybetti</b>. Patlamanın ardından başlatılan soruşturmada fabrikanın <b>iki sahibinden biri patlama nedeniyle tutuklanırken, diğeri adli kontrol şartıyla serbest bırakıldı</b>. Soruşturma kapsamında aralarında <b>sorumlu müdür, iş güvenliği uzmanı ve ustabaşının bulunduğu toplam 4 kişi de "taksirle birden fazla kişinin ölümüne ve yaralanmasına neden olma" suçundan tutuklandı</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont24">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">6 TEMMUZ 2020</h5>
+                        <div id="contentIn">
+                            <h3>Çanakkale, Gelibolu, Ilgardere mevkiinde 450 hektar orman yandı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Bakan Pakdemirli</b>, <b>450 hektar alanın</b> etkilendiğini açıkladı. Gelibolu ve Eceabat ilçelerinde, Ilgardere ve Yalova köyleri yakınındaki ormanlık alanda henüz <b>belirlenemeyen bir nedenle</b> çıkan yangına yaklaşık 16 saat sonra akşam saatlerinde havadan müdahaleye ara veren ekipler, sabah gününün ilk ışıklarıyla tekrar harekete geçti.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont25">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">7 TEMMUZ 2020</h5>
+                        <div id="contentIn">
+                            <h3>Türkiye Büyük Millet Meclisi başkanlığı seçimi yapıldı. Mustafa Şentop yeniden seçildi. </h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Seçimin ilk iki tur oylamasında hiçbir aday yeterli oyu alamadı. Yapılan üçüncü tur oylamada salt çoğunluk sağlandı ve Şentop, yeniden Meclis Başkanı seçildi.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont26">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">10 TEMMUZ 2020</h5>
+                        <div id="contentIn">
+                            <h3>Cumhurbaşkanı Recep Tayyip Erdoğan Ayasofya'nın camii olarak ibadete açılması kararını imzaladı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Danıştay, Ayasofya'ya müze statüsü verilmesini öngören 1934 tarihli Bakanlar Kurulu kararını iptal etti. Erdoğan da ardından ibadete açılmak üzere <b>Ayasofya'nın Diyanet'e devredilmesine</b> yönelik kararı imzaladı.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--A Ğ U S T O S-->
+                <section id="sect8" style="margin-top: 3400px;">
+                    <div id="content" class="cont27">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">21 AĞUSTOS 2020</h5>
+                        <div id="contentIn">
+                            <h3>320 milyar metreküp doğalgaz keşfi</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Cumhurbaşkanı Recep Tayyip Erdoğan</b>, Türkiye'nin Karadeniz'de <b>tarihinin en büyük doğalgaz keşfini</b> gerçekleştirdiğini açıkladı.Tuna-1 olarak bilinen <b>Sakarya Gaz Sahası</b>'nda keşfedilen <b>doğal gaz rezervinin 320 milyar metreküp</b> olduğunu duyuran Erdoğan, "Yeni doğalgaz keşifleri kuvvetle muhtemel" dedi.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont28">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">23 AĞUSTOS 2020</h5>
+                        <div id="contentIn">
+                            <h3>Giresun ve yedi ilçesinde sel ve heyelan felaketi meydana geldi. 6 kişi hayatını kaybetti.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;İlçe merkezi yakınlarından geçen <b>Aksu Deresi</b>'nin taşmasıyla cadde ve sokaklar adeta nehre döndü. Taşkının şiddetinin artması nedeniyle yol kenarlarında park halindeki araçlar sele kapıldı. İşyerlerinde yaklaşık <b>1 metreye kadar su baskınları</b> yaşandı, 8 kişi hayatını kaybetti. AFAD <b>988 kişilik ekip ve 288 araç ile devam eden müdahale çalışmalarında 157 vatandaş kurtarıldı</b>.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont29">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">25 AĞUSTOS 2020</h5>
+                        <div id="contentIn">
+                            <h3>Ahlat Köşkü, Malazgirt Zaferi'nin 949. yıl dönümü etkinlikleri sırasında açıldı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Malazgirt Zaferi</b>'nin <b>949. yıl dönümü</b> dolayısıyla Ahlat'ta düzenlenen etkinliklere katılmak üzere Bitlis'e gelen <b>Cumhurbaşkanı Recep Tayyip Erdoğan</b> ve <b>MHP Genel Başkanı Devlet Bahçeli</b> Külliye'yi birlikte açacak.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--E Y L Ü L-->
+                <section id="sect9" style="margin-top: 3800px;">
+                    <div id="content" class="cont30">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">17 EYLÜL 2020</h5>
+                        <div id="contentIn">
+                            <h3>Türkiye'nin ilk uçan arabası Cezeri, Teknofest Gaziantep'te havalandı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Baykar Milli SİHA Ar-Ge ve Üretim Merkezi</b>’nde <b>15 Eylül 2020</b> Salı günü güvenlik halatları olmadan gerçekleştirilen ikinci test uçuşunda ise CEZERİ Uçan Araba yerden <b>10</b> metre yükseldi. Adını sibernetik ve robotik ilminin kurucusu, Artuklu Sarayı’nın başmühendisi Cizreli Müslüman bilim insanı <b>El Cezeri</b>’den alan CEZERİ Uçan Araba, böylelikle kavramsal tasarımla başlayan çalışmaların ardından 1.5 yıl içinde ilk uçuşunu gerçekleştirmiş oldu.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont31">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">24 EYLÜL 2020</h5>
+                        <div id="contentIn">
+                            <h3>Tekirdağ, Marmaraereğlisinde 4.2 büyüklüğünde deprem meydana geldi.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Marmara Bölgesini etkileyen deprem meydana geldi. Depremin <b>4.2</b> büyüklüğünde olduğu kaydedildi. Marmara Denizinde 4.2 büyüklüğünde deprem meydana geldi.Deprem <b>İstanbul</b>'da da hissedilmiştir.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont32">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">27 EYLÜL 2020</h5>
+                        <div id="contentIn">
+                            <h3>Cumhurbaşkanı Recep Tayyip Erdoğan, 2020 Dağlık Karabağ çatışmaları ile ilgili açıklamasında Türkiye'nin Azerbaycan'a destek verdiğini açıkladı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Erdoğan</b>, Twitter hesabından yaptığı açıklamada, <em>"Azerbaycan'a yönelik saldırılarına bir yenisini ekleyen Ermenistan, bölgede barışın ve huzurun önündeki en büyük tehdit olduğunu bir kere daha göstermiştir. Türk milleti her zaman olduğu gibi bugün de tüm imkanlarıyla Azerbaycanlı kardeşlerinin yanındadır."</em> ifadelerini kullandı.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!--E K İ M-->
+                <section id="sect10" style="margin-top: 4200px;">
+                    <div id="content" class="cont33">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">11 EKİM 2020</h5>
+                        <div id="contentIn">
+                            <h3>Hatay, Belen'de başlayan orman yangınları diğer ilçelere sıçradı ve 400 hektar orman yandı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Cumartesi günü saat 10.15’te başlayan yangına, ekiplerin 10.20’de müdahale ettiğini belirten Pakdemirli, 5 helikopter, 188 arazöz, 25 iş makinesi ve 750 personelin yangınla mücadele ettiğini kaydetti. Meteorolojik şartların yangınla mücadelede, aleyhte olduğunu kaydeden Bakan Pakdemirli, yüzde 18 nem ve 35 derece sıcaklıkla birlikte 70 kilometreyi aşan rüzgarın zorluk yarattığını anlattı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont34">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">17 EKİM 2020</h5>
+                        <div id="contentIn">
+                            <h3>Cumhurbaşkanı Recep Tayyip Erdoğan, Karadeniz'de 85 milyar metreküp doğal gaz bulunduğunu açıkladı.</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Cumhurbaşkanı Recep Tayyip Erdoğan, <b>Fatih</b> sondaj gemisinde incelemelerde bulunmasının ardından yaptığı açıklamada, Karadeniz'deki Tuna 1 bölgesinde <b>85 milyar metreküp</b> daha doğal gaz rezervi bulunduğunu, böylece bulunan doğalgaz rezervinin <b>320'den 405 milyar metreküpe</b> yükseldiğini açıkladı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont35">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">30 EKİM 2020</h5>
+                        <div id="contentIn">
+                            <h3>Ege Denizi depremi</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Kuşadası Körfezi</b> merkezli olarak, Seferihisar açıklarında Richter ölçeğine göre <b>6,9 büyüklüğünde</b> deprem ve etkisiyle <b>tsunami</b> gerçekleşti. İzmir'in birçok ilçesinde binalarda hasar oluştu. <b>117 kişi hayatını kaybetti,1035 kişi yaralandı</b>.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!--K A S I M-->
+                <section id="sect11" style="margin-top: 4600px;">
+                    <div id="content" class="cont36">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">9 KASIM 2020</h5>
+                        <div id="contentIn">
+                            <h3> Hazine ve Maliye Bakanı Berat Albayrak'ın istifası</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Hazine ve Maliye Bakanı <b>Berat Albayrak</b>'ın görevden af talebi, Cumhurbaşkanı Recep Tayyip Erdoğan tarafından kabul edildi. Ve Hazine ve Maliye Bakanlığı görevine <b>Lütfi Elvan</b> atandı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont37">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">15 KASIM 2020</h5>
+                        <div id="contentIn">
+                            <h3>Türkiye Grand Prix 9 yılın ardından yeniden düzenlendi</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;14 Kasım tarihindeki sıralama turlarında 6.sırayı alan <b>Lewis Hamilton</b> 15 Kasım 2020 tarihindeki yarışı <b>1.sırada</b> tamamlayarak <b>7.şampiyonluğunu</b> ilan etmiştir. Böylelikle Lewis Hamilton 7 kez ile en çok şampiyon olan F1 sürücüsü <b>Michael Schumacher</b>'in rekoruna ortak olmuştur. Aynı zamanda Lewis Hamilton aktif olan sürücüler arasında 7 kez ile en çok şampiyon olan isimdir.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont38">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">18 KASIM 2020</h5>
+                        <div id="contentIn">
+                            <h3>Hafta sonu yasakları başladı</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;İçişleri Bakanlığı'nın yayınladığı genelge ile hafta sonları 10.00 - 20.00 saatleri dışında sokağa çıkma kısıtlaması ve birçok yeni tedbir getirildi.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!--A R A L I K-->
+                <section id="sect12" style="margin-top: 5000px;">
+                    <div id="content" class="cont39">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">10 ARALIK 2020</h5>
+                        <div id="contentIn">
+                            <h3>Toplam vaka sayısı açıklandı</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Sağlık Bakanı Fahrettin Koca</b>, gelen tepkiler sonrası bir paylaşım yaptı ve bu tabloda vaka sayıları <b>1 milyon 748 bin 567</b> olarak açıklandı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont40">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">14 ARALIK 2020</h5>
+                        <div id="contentIn">
+                            <h3>ABD'den Türkiye'ye S-400 yaptırımı kararı</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;Amerika Birleşik Devletleri Hazine Bakanlığı; <b>Savunma Sanayii Başkanlığı, Savunma Sanayii Başkanı ve Başkanlık</b> yetkililerini yaptırım listesine eklediğini açıkladı.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="content" class="cont41">
+                        <h5 style="float: right;font-family: 'Roboto', sans-serif; font-style: italic; font-weight: 300;">30 ARALIK 2020</h5>
+                        <div id="contentIn">
+                            <h3>Çin Aşısı Türkiye'ye ulaştı</h3>
+                            <br>
+                            <p style="text-align: left;">&emsp;<b>Kovid-19</b> aşılarını taşıyan <b>Türk Hava Yolları</b>'na ait <b>"TK 6175"</b> sefer sayılı "Boeing 777" tipi uçak, saat 05.44'te <b>Ankara Esenboğa Havalimanı</b>'na indi. Gelen ilk partide 3 milyon doz aşı bulunmaktaydı. Aşıların testleri 14 gün sürdü.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    
+    <footer style="margin-top: 5700px;text-align: center;">
+        <h6 style="margin: 0px;">Bu websitesi Enes Çakır tarafından yapılmıştır</h6>
+        <h6>enescakkir@windowslive.com | <a href="https://instagram.com/kuzudoli" target="_blank">kuzudoli</a></h6>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
